@@ -11,7 +11,7 @@ export function OutSide() {
 
   return (
     <div>
-      <button onClick={() => editorRef?.current?.focus()}>Focus Editor</button>
+      <span>{editorRef?.current?._config.namespace}</span>
     </div>
   );
 }
